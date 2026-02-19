@@ -1,52 +1,121 @@
-Machine Learning — Study & Practice
+  **Machine Learning — Study & Practice**
+
 A comprehensive collection of machine learning implementations, experiments, and exercises built while studying ML in depth using Python, TensorFlow, and Keras.
-What's Inside
-This repo documents a structured learning journey across the full ML spectrum — from classical algorithms to deep learning and reinforcement learning.
-Classical Machine Learning
 
-Linear, Polynomial, Logistic, and Regularized Regression
+This repository documents a structured learning journey across the full ML spectrum — from classical machine learning algorithms to deep learning and reinforcement learning.
+
+  **What’s Inside**
+
+🔹 Classical Machine Learning
+
+Implemented mainly using Scikit-learn and NumPy:
+
+Linear Regression (Normal Equation & Gradient Descent)
+
+Polynomial Regression
+
+Logistic Regression
+
+Regularized Regression (Ridge, Lasso)
+
 Support Vector Machines (SVM)
-Decision Trees and Random Forests
-Ensemble Learning and Boosting
-Dimensionality Reduction (PCA, KPCA)
-Clustering (K-Means, DBSCAN, Gaussian Mixture)
 
-Deep Learning
+Decision Trees
 
-Perceptrons and Multi-Layer Perceptrons (MLPs)
-Implementing MLPs with Keras
-Training Deep Neural Networks
-Custom Models and Training Loops with TensorFlow
-Residual Blocks (ResNet-34, Image Classification, Regression)
-AutoEncoders
+Random Forests
 
-Sequence Models & NLP
+Ensemble Learning & Boosting
+
+Dimensionality Reduction (PCA, Kernel PCA)
+
+Clustering:
+
+K-Means
+
+DBSCAN
+
+Gaussian Mixture Models (GMM)
+
+🔹 Deep Learning
+
+Built using TensorFlow and Keras:
+
+Perceptrons & Multi-Layer Perceptrons (MLPs)
+
+Custom training loops with TensorFlow
+
+Deep Neural Network training strategies
+
+Residual Networks (ResNet-34)
+
+Image Classification
+
+Regression tasks
+
+AutoEncoders (dimensionality reduction & reconstruction)
+
+🔹 Sequence Models & NLP
 
 Recurrent Neural Networks (RNN)
-LSTM Encoder-Decoder
+
 Character-level RNN
+
+LSTM Encoder–Decoder
+
 Seq2Seq with Attention
+
 Sentiment Analysis
-Transformer architecture
 
-Reinforcement Learning
+Transformer Architecture (self-attention mechanisms)
 
-Q-Learning fundamentals
-DQN — Atari Breakout
+🔹 Reinforcement Learning
+
+Implemented from scratch and with TensorFlow:
+
+Q-Learning Fundamentals
+
+Deep Q-Network (DQN)
+
+Atari: Breakout
+
 CartPole (v2)
+
 Lunar Lander (v3)
+
 Space Invaders
 
-Data Engineering
+Focus areas:
 
-Loading and Preprocessing Data with TensorFlow
-Protocol Buffers (TFRecord format)
-TFRecord file creation and parsing
+Experience Replay
 
-Tech Stack
+Target Networks
 
-Python — core language
-TensorFlow / Keras — deep learning framework
-Scikit-learn — classical ML algorithms
-Jupyter Notebooks — experimentation and visualization
-Matplotlib / NumPy / Pandas — data handling and plotting
+Double DQN
+
+Dueling DQN
+
+Custom training drivers
+
+🔹 Data Engineering
+
+Data loading & preprocessing with TensorFlow
+
+TFRecord file creation
+
+TFRecord parsing
+
+Protocol Buffers integration
+
+  **Tech Stack**
+
+Python — Core programming language
+
+TensorFlow / Keras — Deep learning framework
+
+Scikit-learn — Classical ML algorithms
+
+NumPy / Pandas — Data manipulation
+
+Matplotlib — Visualization
+
+Jupyter Notebooks — Experimentation & analysis
